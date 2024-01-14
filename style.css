@@ -1,0 +1,51 @@
+*, html, body {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: Arial;
+    background-color: skyblue;
+}
+
+.container {
+    width: 100%;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+.title {
+    margin: 20px;
+    font-size: 3.5em;
+}
+
+.cta {
+    margin-bottom: 20px;
+    text-align: center;
+    font-size: 1em;
+    max-width: 90%;
+}
+
+.wrapper {
+    max-width: 80%;
+    display: flex;
+}
+
+#jawaban {
+    width: 80%;
+    padding: 2px 0;
+    font-size: 1rem;
+    border: none;
+    outline: none;
+    border-bottom: 1px solid rgba(0,0,0,0.5);
+}
+
+#btn {
+    font-size: 20px;
+    padding: 8px 0;
+    width: 50px;
+    border: none;
+    background-color: red;
+    border-radius: 5px;
+}
